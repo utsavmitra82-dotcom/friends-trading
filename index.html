@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Friends Trading Company – Construction, Electrical, Labour &amp; JCB</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="wrap bar">
+  <a class="brand" href="#top"><img src="logo.jpg" alt="Friends Trading Company logo"><span>Friends Trading</span></a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+  <nav id="nav">
+   <a href="#services">Services</a><a href="#jcb">JCB hire</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+   <a class="btn pri" href="https://wa.me/919046915053?text=Hello%20Friends%20Trading%20Company%2C%20I%20need%20a%20quote" target="_blank" rel="noopener">WhatsApp 90469 15053</a>
+  </nav>
+ </div>
+</header>
+
+<main id="top">
+<div class="hero">
+ <div class="wrap">
+  <div>
+   <h1>We build it.<span>We wire it.</span>We staff it.</h1>
+   <p>Civil construction, electrical work, skilled labour supply and JCB hire from one reliable team, so your site keeps moving.</p>
+   <div class="cta"><a class="btn pri" href="https://wa.me/919046915053?text=Hello%20Friends%20Trading%20Company%2C%20I%20need%20a%20quote" target="_blank" rel="noopener">Get a free quote on WhatsApp</a><a class="btn alt" href="#services">See our services</a></div>
+  </div>
+  <div class="scene" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b><em></em></div>
+ </div>
+</div>
+
+<div class="stats"><div class="wrap">
+ <div><strong data-n="12">0</strong><span>Years on site</span></div>
+ <div><strong data-n="240">0</strong><span>Projects delivered</span></div>
+ <div><strong data-n="350">0</strong><span>Skilled workers</span></div>
+ <div><strong data-n="18">0</strong><span>JCB &amp; machines</span></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+ <h2>What we do</h2>
+ <p class="lead">Pick a service to see what is included. Every job starts with a free site visit.</p>
+ <div class="tabs" role="tablist" id="tabs"></div>
+ <div id="panels"></div>
+</div></section>
+
+<section class="jcb" id="jcb"><div class="wrap">
+ <h2>JCB hire estimate</h2>
+ <p class="lead">Choose a machine and the hours you need. Rates include an operator and are indicative; the final quote follows your site visit.</p>
+ <div class="calc">
+  <form id="calc" novalidate>
+   <label>Machine<select id="mach"></select></label>
+   <label>Hours needed<input id="hrs" type="number" min="1" max="240" value="8" inputmode="numeric"></label>
+   <label class="check"><input id="fuel" type="checkbox" checked> Fuel included</label>
+   <div class="err" id="hErr" style="color:#ffb59a"></div>
+  </form>
+  <div class="result" aria-live="polite">
+   <small>Estimated cost</small>
+   <div class="amt" id="amt">₹0</div>
+   <small id="brk"></small><br><br>
+   <button class="btn pri" id="useEst" type="button">Request this machine</button>
+  </div>
+ </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+ <h2>Recent work</h2>
+ <p class="lead">A few of the sites we have worked on.</p>
+ <div class="chips" id="chips"></div>
+ <div class="grid" id="grid"></div>
+</div></section>
+
+</main>
+
+<footer id="contact"><div class="wrap">
+ <div><h3>Friends Trading Company</h3><p>Construction, electrical, labour supply and JCB hire.</p></div>
+ <div><h3>Contact</h3><a href="https://wa.me/919046915053?text=Hello%20Friends%20Trading%20Company%2C%20I%20need%20a%20quote" target="_blank" rel="noopener">WhatsApp: +91 90469 15053</a><a href="tel:+919046915053">Call: +91 90469 15053</a><a href="mailto:hello@friendstrading.in">hello@friendstrading.in</a><p>Mon–Sat, 8 am – 7 pm</p></div>
+ <div><h3>Quick links</h3><a href="#services">Services</a><a href="#jcb">JCB hire</a></div>
+</div><p class="copy">© 2026 Friends Trading Company. All rights reserved.</p></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
